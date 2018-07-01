@@ -1,0 +1,203 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE STYLES */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* HEADER/ NAV */
+/* ----------------------------------------------- */
+
+nav img {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+header {
+    background-color: #000;
+}
+
+.sub-nav{
+    display: inline-block;
+    float: right;
+    margin-left: 50px;
+    margin-top: 40px; 
+    
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: beige;
+    font-weight: 300;
+    border-radius: 200px;
+    border: 1px solid beige;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: beige;
+    color: #000;
+}
+
+.btn-main:link,
+.btn-main:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    color: beige;
+    font-weight: 300;
+}
+
+.btn-main:hover,
+.btn-main:active {
+    border-bottom: 2px solid #fff;
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+
+.btn-main{
+    margin-right: 20px;
+}
+
+.btn-main-active {
+    font-weight: 700;
+    margin-right: 20px;
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* CONTENT */
+/* ----------------------------------------------- */
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    width: 80%;
+    height: auto;
+}
+
+.in-the-content h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: dimgray;
+}
+
+.in-the-content img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%
+}
+
+.in-the-content {
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+    font-size: 90%;
+}
+
+.in-the-content * {
+    margin-bottom: 20px;
+}
+
+/* ----------------------------------------------- */
+/* NEXT & PREVIOUS BTN */
+/* ----------------------------------------------- */
+
+.np-nav {
+    margin-top: 40px;
+}
+
+.nav-box {
+    text-align: center;
+}
+
+.btn-nav:link,
+.btn-nav:visited {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    font-weight: 300;
+    border-radius: 200px;
+    border: 1px solid #000;
+    width: 200px;
+    text-align: center;
+}
+
+.btn-nav:hover,
+.btn-nav:active {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/* ----------------------------------------------- */
+/* FOOTER Section */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #333;
+    padding: 30px;
+}
+
+.fb {
+    text-align: center;
+    font-size: 200%;
+}
+
+.fb p {
+    color: white;
+    font-size: 30%;
+    padding-top: 0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 80%;
+    color: white;
+}
+
+ion-icon {
+    color: white;
+    padding-bottom: 0;
+}
