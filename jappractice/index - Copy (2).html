@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style>
+
+		html, body {		  
+		  border: 0px;
+		  width: 100%;
+		  height: 100%;
+		}
+
+		.container {
+		  background-image: url("Mira.jpg");
+		  height: 100%;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		}
+		
+		.vertical-center {
+		  position: fixed;
+		  height: 20vh;
+		}
+		.vertical-center2 {
+		  position: fixed;
+		  height: 80vh;
+		}
+		p {
+			font-size: 90px;
+			color: blue;
+			text-align: center;
+		}
+		h6 {
+			font-size: 30px;
+			color: #FFFFFF;
+			text-align: center;
+		}
+		h5 {
+			font-size: 30px;
+			text-align: center;
+		}
+		button {
+			font-size: 25px;
+			background-color: #555555; /* Green */
+			border: none;
+			color: white;
+			padding: 10px 70px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			left: 50%;
+		}
+		h6:hover {
+  			color: grey;
+		}
+	</style>
+
+
+<title>N5 Verbs</title>
+
+</head>
+
+<body>
+
+	<!--<p>わたしはミラです</p> -->
+	<div class="container">
+		<div class="vertical-center2">
+			<button onclick = "gentext();">わたしはミラです</button>
+			<p></p>
+			<h6></h6>
+			<h5>&#128512;</h5>
+		</div>
+	</div>
+
+	<script>
+		function no() {[Math.floor(Math.random()*157)]}
+		function gentext() {
+			var jap = ['おきます|get up, wake up ()',
+						'ねます|sleep, go to bed ()',
+						'はたらきます|work ()',
+						'やすみます|take a rest, take holiday ()',
+						'べんきょうします|study ()',
+						'おわります|finish ()',
+						'いきます|go ()',
+						'きます|come (III)',
+						'かえります|go home, return ()',
+						'たべます|eat ()',
+						'のみます|drink ()',
+						'すいます|smoke ()',
+						'みます|see, look at, watch (II)',
+						'ききます|hear, listen ()',
+						'よみます|read ()',
+						'かきます|write, draw, paint ()',
+						'とります|take [a picture] ()',
+						'します|do (III)',
+						'あいます|meet [a friend] ()',
+						'きります|cut, slice ()',
+						'おくります|send ()',
+						'あげます|give ()',
+						'もらいます|recieve ()',
+						'かします|lend (I)',
+						'かります|borrow (II)',
+						'おしえます|teach ()',
+						'ならいます|learn ()',
+						'かけます|make [a phone call] ()',
+						'わかります|understand ()',
+						'あります|have ()',
+						'います|exist, be (referring to animate things) (II)',
+						'あります|exist, be (referring to inanimate things) ()',
+						'います|have [a child] (II)',
+						'います|stay, be [in Japan] (II)',
+						'かかります|take (referring to time or money) ()',
+						'やすみます|take a day off [work] ()',
+						'あそびます|enjoy oneself, play ()',
+						'およぎます|swim ()',
+						'むかえます|go to meet, welcome ()',
+						'つかれます|get tired ()',
+						'だします|send [a letter] (I)',
+						'はいります|enter [a coffee shop] ()',
+						'でます|go out [of a coffee shop] ()',
+						'けっこんします|marry, get married ()',
+						'かいものします|do shopping ()',
+						'しょくじします|have a meal, dine ()',
+						'さんぽします|take a walk [in a park] ()',
+						'つけます|turn on ()',
+						'けします|turn off (I)',
+						'あけます|open ()',
+						'しめます|close, shut ()',
+						'いそぎます|hurry ()',
+						'まちます|wait ()',
+						'とめます|stop, park ()',
+						'まがります|turn [to the right] ()',
+						'もちます|hold ()',
+						'とります|take, pass ()',
+						'てつだいます|help (with a task) ()',
+						'よびます|call ()',
+						'はなします|speak, talk (I)',
+						'みせます|show ()',
+						'おしえます|tell [an address] ()',
+						'はじめます|start, begin ()',
+						'ふります|rain (II)',
+						'コピーします|copy ()',
+						'たちます|stand up ()',
+						'すわります|sit down ()',
+						'つかいます|use ()',
+						'おきます|put ()',
+						'つくります|make, produce ()',
+						'うります|sell ()',
+						'しります|get to know ()',
+						'すみます|be going to live ()',
+						'けんきゅうします|do research ()',
+						'のります|ride, get on [a train] ()',
+						'おります|get off [a train] ()',
+						'のりかえます|change (trains, etc.) ()',
+						'あびます|take [a shower] (II)',
+						'いれます|put in, insert ()',
+						'だします|take out, withdraw (I)',
+						'はいります|enter [university] ()',
+						'でます|graduate from [university] ()',
+						'やめます|quit or retire from [a company] ()',
+						'おします|push, press (I)',
+						'おぼえます|memorize ()',
+						'わすれます|forget ()',
+						'なくします|lose ()',
+						'だします|hand in [a report] ()',
+						'はらいます|pay ()',
+						'かえします|give back, return (I)',
+						'でかけます|go out ()',
+						'ぬぎます|take off (clothes, shoes, etc.) ()',
+						'もっていきます|take (something) (III)',
+						'もってきます|bring (something) ()',
+						'しんぱいします|worry ()',
+						'ざんぎょうします|work overtime ()',
+						'しゅっちょうします|go on a business trip ()',
+						'のみます|take [medicine] ()',
+						'はいります|take [a bath] ()',
+						'できます|be able to, can (II)',
+						'あらいます|wash ()',
+						'ひきます|play (a stringed instrument) ()',
+						'うたいます|sing ()',
+						'あつめます|collect, gather ()',
+						'すてます|throw away ()',
+						'かえます|exchange, change ()',
+						'うんてんします|drive ()',
+						'よやくします|reserve, book ()',
+						'けんがくします|visit some place for study ()',
+						'のぼります|climb (a mountain) ()',
+						'とまります|stay (at a hotel) ()',
+						'そうじします|clean (a room) ()',
+						'せんたくします|wash (clothes) ()',
+						'れんしゅうします|practice ()',
+						'なります|become ()',
+						'いります|need, require (a visa) ()',
+						'しらべます|check, investigate ()',
+						'なおします|repair, correct (I)',
+						'しゅうりします|repair ()',
+						'でんわします|phone ()',
+						'おもいます|think ()',
+						'いいます|say ()',
+						'たります|be enough, be sufficient ()',
+						'かちます|win ()',
+						'まけます|lose, be beaten ()',
+						'あります|(a festival) be held, take place ()',
+						'やくに たちます|be useful ()',
+						'きます|put on (a shirt, etc.) (II)',
+						'はきます|put on (shoes, trousers, etc.) ()',
+						'かぶります|put on (a hat, etc.) ()',
+						'かけます|put on (glasses) ()',
+						'します|put on (tie) ()',
+						'うまれます|be born ()',
+						'ききます|ask (the teacher) ()',
+						'まわします|turn (I)',
+						'ひきます|pull ()',
+						'かえます|change ()',
+						'さわります|touch (a door) ()',
+						'でます|(change) come out ()',
+						'あるきます|walk ()',
+						'わたります|cross (a bridge) ()',
+						'まがります|turn (to the right) ()',
+						'くれます|give (me) ()',
+						'つれていきます|take (someone) ()',
+						'つれてきます|bring (someone) ()',
+						'おくります|escort (someone, go with) ()',
+						'しょうかいします|introduce ()',
+						'あんないします|show around, show the way ()',
+						'せつめいします|explain ()',
+						'じゅんびします|prepare ()',
+						'ひっこしします|move out ()',
+						'かんがえます|think, consider ()',
+						'つきます|arrive ()',
+						'とります （としを～）|grow old ()',
+						'たります|be enough, be sufficient ()',
+						'てんきんします|to be transferred (to another office) ()',
+						'おるします|withdraw (I)',
+														];
+					var para = document.querySelector('p');
+					var para2 = document.querySelector('h6');
+					var no = jap[Math.floor(Math.random()*jap.length)];
+					var no1 = no.split("|");
+					para.innerHTML= no1[0];
+					para2.innerHTML = no1[1];
+		}
+	</script>
+
+
+
+</body>
+
+</html>
